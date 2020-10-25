@@ -1,0 +1,215 @@
+﻿/* Entire CSS is my work */
+html {
+    margin: 0;
+    height: 100%;
+}
+
+#Body {
+    background-color: #f7f7ff;
+    margin: 0;
+}
+
+#HomeImg {
+    background-image: url('images/horsesrunning.jpg');
+    margin: 0px auto 30px;
+    padding: 200px;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+#HomeImg img {
+    float: left;
+    height: 200px;
+    margin-left: 50px;
+}
+
+#HomeImgTxt {
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    margin: 50px;
+    padding: 30px;
+}
+
+#HomeImgTxt h1 {
+    font-size: 36px;
+}
+
+#AddHBtn {
+    border: none;
+    padding: 5px 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#AddHBtn:hover {
+    background-color: dodgerblue;
+}
+
+#counter {
+    text-align: center;
+    font-size: 18px;
+}
+
+.Col2 { /* Three equal columns */
+    float: left;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.row:after { /* Clear floats after the columns */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The Modal (background) */
+.Modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    background-image: url('images/hoofprints.png');
+}
+
+/* Modal Content */
+.Modal-Content {
+    opacity: 1;
+    background-color: #f7f7ff;
+    margin: 5% auto 15% auto;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+    overflow: auto;
+}
+
+.Modal-Content h3 {
+    font-size: 24px;
+}
+
+.Modal-Content label {
+    font-size: 18px;
+}
+
+.Modal-Content textarea{
+    resize: none;
+}
+
+.SubmitBtn {
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin: 30px auto 0px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.SubmitBtn:hover {
+    background-color: dodgerblue;
+}
+
+/* The Close Button (x) */
+.ModalClose {
+    float: right;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.ModalClose:hover,
+.ModalClose:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Table Form */
+
+#HorseTable {
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #353d4b;
+    overflow: auto;
+    margin: 30px auto;
+    border: black 5px solid;
+}
+    
+#HorseTable tr td {
+color: black;
+padding: 8px;
+font-size: 18px;
+}
+
+
+#HorseTable #HTableHead th {
+background-color: midnightblue;
+color: white;
+font-size: 20px;
+padding: 5px;
+}
+
+#HorseTable tr:nth-child(odd) {
+background-color: whitesmoke;
+color: black;
+}
+
+#HorseTable tr:nth-child(even) {
+background-color: lightgray;
+color: black;
+}
+
+#HorseTable tr:hover {
+background-color: dodgerblue;
+}
+
+/* Form Buttons */
+
+.EditHBtn {
+    border: none;
+    padding: 5px 15px;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.EditHBtn:hover {
+    background-color: white;
+}
+
+.DelHBtn {
+    border: none;
+    padding: 5px 15px;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.DelHBtn:hover {
+    background-color: orangered;
+}
+
+/* Footer */
+#HSFooter {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+#HSFooter img {
+    margin-left: 50px;
+    float: left;
+    height: 100px;
+}

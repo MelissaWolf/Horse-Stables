@@ -79,8 +79,8 @@ function closeAddInput() {
 function deleteItem(id) {
 
     //Checks for confirmation before Deleting Horse
-    var confirmResult = confirmDel("Are you sure you want to Delete?");
-    if (confirmResult) {
+    var DelResult = confirm("Are you sure you want to Delete?");
+    if (DelResult) {
 
         fetch(`${uri}/${id}`, {
             method: 'DELETE'

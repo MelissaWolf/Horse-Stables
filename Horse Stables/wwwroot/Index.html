@@ -25,15 +25,15 @@
             <form action="javascript:void(0);" method="POST" onsubmit="addHorse()">
                 <div class="Col2">
                     <label> Horse's Name: </label><br />
-                    <input type="text" id="Hname" required><br /><br />
+                    <input type="text" id="Hname" minlength="2" maxlength="16" required><br /><br />
                     <label> Top Speed: </label><br />
-                    <input type="number" id="Hspeed" required><br /><br />
+                    <input type="number" id="Hspeed" min="0" max="99" required><br /><br />
                     <label> Breed: </label><br />
-                    <input type="text" id="Hbreed" required><br /><br />
+                    <input type="text" id="Hbreed" minlength="2" maxlength="20" required><br /><br />
                 </div>
                 <div class="Col2">
                     <label> Date of Birth: </label><br />
-                    <input type="date" id="HDOB" required><br /><br />
+                    <input type="date" id="HDOB" min="1995-01-01" max="2500-12-31" required><br /><br />
                     <label> Gender: </label><br />
                     <select id="Hgender" required>
                         <option value="" disabled selected hidden>Select Gender</option>
@@ -58,15 +58,15 @@
                 <div class="Col2">
                     <input type="hidden" id="edit-Id">
                     <label> Horse's Name: </label><br />
-                    <input type="text" id="edit-Hname" required><br /><br />
+                    <input type="text" id="edit-Hname" minlength="2" maxlength="16" required><br /><br />
                     <label> Top Speed: </label><br />
-                    <input type="number" id="edit-Hspeed" required><br /><br />
+                    <input type="number" id="edit-Hspeed" min="0" max="99" required><br /><br />
                     <label> Breed: </label><br />
-                    <input type="text" id="edit-Hbreed" required><br /><br />
+                    <input type="text" id="edit-Hbreed" minlength="2" maxlength="20" required><br /><br />
                 </div>
                 <div class="Col2">
                     <label> Date of Birth: </label><br />
-                    <input type="date" id="edit-HDOB" required><br /><br />
+                    <input type="date" id="edit-HDOB" min="1995-01-01" max="2500-12-31" required><br /><br />
                     <label> Gender: </label><br />
                     <select id="edit-Hgender" required>
                         <option value="" disabled selected hidden>Select Gender</option>
